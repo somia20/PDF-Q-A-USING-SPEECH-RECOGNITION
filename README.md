@@ -10,9 +10,6 @@ This repository contains code for a speech recognition and question answering sy
 - QA.py: Implements functions to answer questions using document retrieval and text generation techniques.
 main_script.py: Provides an example of how to use the answer_question function to ask a question and retrieve an answer from a PDF document.
 
-**Workflow**
-
-![alt text](workflow.PNG)
 
 **Requirements:**
 
