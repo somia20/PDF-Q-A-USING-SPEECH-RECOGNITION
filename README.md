@@ -12,7 +12,7 @@ main_script.py: Provides an example of how to use the answer_question function t
 
 **Workflow**
 
-![alt text](<Blank diagram.png>)
+![alt text](workflow.PNG)
 
 **Requirements:**
 
