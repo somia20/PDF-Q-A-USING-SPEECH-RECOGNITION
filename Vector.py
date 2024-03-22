@@ -1,4 +1,4 @@
-# Vector.py
+
 from sentence_transformers import SentenceTransformer
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
