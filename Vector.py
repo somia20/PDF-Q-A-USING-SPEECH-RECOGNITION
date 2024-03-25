@@ -5,6 +5,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import FAISS
 
+
+
 def create_vector_storage(pdf_path, model_name):
     model = SentenceTransformer(model_name)
     loader = PyMuPDFLoader(pdf_path)
