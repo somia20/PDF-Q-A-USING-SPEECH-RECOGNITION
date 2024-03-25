@@ -14,6 +14,8 @@ def answer_question(pdf_path, question):
         create_vector_storage(pdf_path, model_name)
     db = load_vector_storage(model_name)
     
+
+    
     # Configure Google API
     google_api_key = os.getenv('GOOGLE_API_KEY')
     palm.configure(api_key=google_api_key)
