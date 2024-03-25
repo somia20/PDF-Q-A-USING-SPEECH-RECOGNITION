@@ -1,6 +1,7 @@
 # main_script.py
 from QA import answer_question
 
+
 def main():
     # Specify the path to your PDF file
     pdf_path = "c:/Users/User/Desktop/AI.pdf"
