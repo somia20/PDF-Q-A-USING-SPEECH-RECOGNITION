@@ -1,5 +1,6 @@
 **PDF-QA-USING-SPEECH-RECOGNITION**
 
+
 **Overview :**
 
 This repository contains code for a speech recognition and question answering system integrated with a PDF document. The system records audio input, transcribes it, retrieves relevant information from a PDF document, and generates answers to questions asked by the user.
