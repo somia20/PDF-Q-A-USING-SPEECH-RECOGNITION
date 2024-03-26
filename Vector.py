@@ -6,7 +6,6 @@ from langchain_community.embeddings.sentence_transformer import SentenceTransfor
 from langchain_community.vectorstores import FAISS
 
 
-
 def create_vector_storage(pdf_path, model_name):
     model = SentenceTransformer(model_name)
     loader = PyMuPDFLoader(pdf_path)
