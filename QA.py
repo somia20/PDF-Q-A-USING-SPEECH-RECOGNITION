@@ -3,9 +3,11 @@ import os
 import google.generativeai as palm
 from Vector import load_vector_storage, create_vector_storage
 
+
 # Load environment variables from .env file
 from dotenv import load_dotenv
 load_dotenv()
+
 
 def answer_question(pdf_path, question):
     # Load or create vector storage
@@ -15,10 +17,10 @@ def answer_question(pdf_path, question):
     db = load_vector_storage(model_name)
     
 
-    
     # Configure Google API
     google_api_key = os.getenv('GOOGLE_API_KEY')
     palm.configure(api_key=google_api_key)
+
 
     # Define the query
     query = question
@@ -28,7 +30,7 @@ def answer_question(pdf_path, question):
     try:
         docs = retriever.invoke(query)
         if docs:
-            print("Documents retrieved successfully")
+            print("documents retrieved successfully")
         else:
             print("No documents retrieved for the query.")
     except Exception as e:
