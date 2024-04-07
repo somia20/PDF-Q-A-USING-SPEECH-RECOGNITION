@@ -30,7 +30,7 @@ def answer_question(pdf_path, question):
     try:
         docs = retriever.invoke(query)
         if docs:
-            print("documents retrieved successfully")
+            print("Documents retrieved successfully")
         else:
             print("No documents retrieved for the query.")
     except Exception as e:
